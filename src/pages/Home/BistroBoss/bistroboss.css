@@ -1,0 +1,15 @@
+.bistro-boss-style{
+    background-image: url(../../../assets/home/chef-service.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.bistro-boss-style .text-container{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 10%;
+    opacity: 0.80;
+}
