@@ -10,7 +10,7 @@ const PopularMenu = () => {
         .then(res =>res.json())
         .then(data => {
             const popularItems = data.filter(item =>item.category === 'popular');
-           setMenu(popularItems)
+           setMenu(popularItems);
         })
     },[])
     return (
