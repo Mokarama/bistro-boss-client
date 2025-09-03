@@ -1,11 +1,11 @@
 const Navbar = () => {
   const navOptions = (
     <>
-      <li><a>Item 1</a></li>
-      <li>
-        <a>Parent</a>
-      </li>
-      <li><a>Item 3</a></li>
+      <li className="text-sm uppercase"><a>Home</a></li>
+      <li className="text-sm uppercase "><a>Contact us</a></li>
+      <li className="text-sm uppercase "><a>dashboard</a></li>
+      <li className="text-sm uppercase "><a>our menu</a></li>
+      <li className="text-sm uppercase "><a>our shop</a></li>  
     </>
   );
 
@@ -35,7 +35,9 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl uppercase">Bistroboss 
+        <br/>Restaurant
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -43,7 +45,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn text-sm uppercase">Sign out</a>
       </div>
     </div>
   );
