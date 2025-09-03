@@ -4,7 +4,7 @@ import MenuItem from "../../../sharde/MenuItem/MenuItem";
 
 
 const PopularMenu = () => {
-    const [menu, setMenu] =useState([])
+    const [menu, setMenu] =useState([]);
     useEffect(() =>{
         fetch('menu.json')
         .then(res =>res.json())
