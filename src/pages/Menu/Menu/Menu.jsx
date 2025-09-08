@@ -26,26 +26,26 @@ const Menu = () => {
             <Helmet>
              <title>Bistro Boss | Menu</title>
             </Helmet>
-            <Cover img={menuImg} title={"Our Menu"}></Cover>
+            {/* <Cover img={menuImg} title={"our menu"}></Cover> */}
 
             {/* Offered section */}
             <SectionTitle subHading={"Don't miss"} hading={"Today's Offer"}></SectionTitle>
             <MenuCategory item={offered}></MenuCategory>
 
             {/* Desserts section */}
-            <Cover img={dessertImg} title={"Desserts"}></Cover>
+            <Cover img={dessertImg} title={"desserts"}></Cover>
             <MenuCategory item={dessert}></MenuCategory>
 
             {/* Pizza section */}
-            <Cover img={pizzaImg} title={"Pizza"}></Cover>
+            <Cover img={pizzaImg} title={"pizza"}></Cover>
             <MenuCategory item={pizza}></MenuCategory>
 
             {/*Salads section */}
-            <Cover img={saladsImg} title={"Salad"}></Cover>
+            <Cover img={saladsImg} title={"salad"}></Cover>
             <MenuCategory item={salad}></MenuCategory>
 
             {/* Soups section */}
-            <Cover img={soupsImg} title={"Soups"}></Cover>
+            <Cover img={soupsImg} title={"soups"}></Cover>
             <MenuCategory item={soup}></MenuCategory>
 
         </div>

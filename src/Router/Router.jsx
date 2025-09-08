@@ -8,6 +8,7 @@ import Order from "../pages/Order/Order/Order";
 
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -22,7 +23,7 @@ export const router = createBrowserRouter([
           element:<Menu></Menu>
         },
         {
-          path:'/order',
+          path:'/order/:category',
           element:<Order></Order>
         }
     ]
